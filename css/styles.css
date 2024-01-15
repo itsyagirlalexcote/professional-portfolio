@@ -73,6 +73,19 @@
 
   }
 
+  .profile-img-wrapper img {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .profile-img-wrapper img:hover {
+    filter: grayscale(0%);
+  }
+
   /* Footer */
 
   footer {
