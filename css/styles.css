@@ -17,13 +17,6 @@
     line-height: 1.4;
   }
   
-  /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Customize the background color to match your design.
-   */
-  
   ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -34,10 +27,6 @@
     text-shadow: none;
   }
   
-  /*
-   * A better looking default horizontal rule
-   */
-  
   hr {
     display: block;
     height: 1px;
@@ -46,12 +35,6 @@
     margin: 1em 0;
     padding: 0;
   }
-  
-  /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
   
   audio,
   canvas,
@@ -62,19 +45,11 @@
     vertical-align: middle;
   }
   
-  /*
-   * Remove default fieldset styles.
-   */
-  
   fieldset {
     border: 0;
     margin: 0;
     padding: 0;
   }
-  
-  /*
-   * Allow only vertical resizing of textareas.
-   */
   
   textarea {
     resize: vertical;
@@ -195,14 +170,71 @@
   }
   
   /* ==========================================================================
-     EXAMPLE Media Queries for Responsive Design.
-     These examples override the primary ('mobile first') styles.
-     Modify as content requires.
-     ========================================================================== */
-  
-  @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  Media Queries for Responsive Design.
+  ========================================================================== */
+
+  /* ----- Tablet Styles ----- */
+
+  @media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+
+      /* Header styles */
+
+      /* General - Sections styles */
+
+      /* Projects styles */
+
+      /* Tech Stack styles*/
+
+      /* About styles */
+
+      /* Footer styles */
+
   }
+
+
+   /* ----- Landscape tablets and iPad Pro Styles ----- */
+
+  @media only screen and (min-width: 768px) {
+    /*Landscape tablets and iPad Pro styles here*/
+
+      /* Header styles */
+
+      /* General - Sections styles */
+
+      /* Projects styles */
+
+      /* Tech Stack styles*/
+
+      /* About styles */
+
+      /* Footer styles */
+
+  }
+
+
+  /* ----- Desktop Styles ----- */
+
+  @media only screen and (min-width: 768px) {
+    /*Desktop styles here*/
+
+      /* Header styles */
+
+      /* General - Sections styles */
+
+      /* Projects styles */
+
+      /* Tech Stack styles*/
+
+      /* About styles */
+
+      /* Footer styles */
+
+  }
+
+
+  
+
   
   @media print,
     (-webkit-min-device-pixel-ratio: 1.25),
