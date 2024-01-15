@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -20,8 +20,14 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/index.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  
+
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet"> -->
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -33,16 +39,36 @@
 
     <header>
         <div class="content-wrapper">
-            <nav>
-                <!-- Hamburger menu -->
-                <!-- profile icon that eventually leads to mini about swipe page -->
-                <ul>
-                    <li><a href="#projects" id="projects-link">projects</a></li>
-                    <li><a href="#tech-stack" id="tech-stack-link">tech-stack</a></li>
-                    <li><a href="#about" id="about-link">about</a></li>
-                    <li><a href="#contact" id="contact-link">contact</a></li>
+            <nav class="navbar">
+                <div class="menu-toggle" id="mobile-menu">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>
+              </nav>              
+            
+            <!-- <nav class="navbar">
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="nav-list">
+                    <li><a href="#projects" id="projects-link">Projects</a></li>
+                    <li><a href="#skills" id="skills-link">Skills</a></li>
+                    <li><a href="#about" id="about-link">About</a></li>
+                    <li><a href="#contact" id="contact-link">Contact</a></li>
+                </ul>
+            </nav> -->
+            <!-- Hamburger menu -->
+                <!-- profile icon that eventually leads to mini about swipe page -->
             <div class="profile-intro">
                 <h1>
                     Hi, I’m Alexandra! I’m a Front-End Developer based in Montreal, Quebec. Enchantée! 
@@ -132,10 +158,10 @@
                 </div>
             </div>
         </section>
-        <section id="tech-stack">
+        <section id="skills">
             <div class="content-wrapper">
                 <h2 class="skills-header">
-                    Tech Stack
+                    Skills
                 </h2>
                 <ul class="skills-wrapper">
                     <li class="skill">Skill 1</li>
