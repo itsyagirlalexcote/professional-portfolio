@@ -75,6 +75,12 @@
 
   }
 
+  /* Hamburger menu styles */
+  .menu-toggle {
+  cursor: pointer;
+  display: block; /* Show the hamburger menu for all screen sizes initially */
+  }
+
   .navbar {
     background-color: #ff1677;
     padding: 15px;
@@ -88,10 +94,11 @@
     padding: 0;
     margin: 0;
     display: flex;
+    flex-direction: column; /* Stack items vertically for small screens */
   }
   
   .nav-list li {
-    margin-right: 15px;
+    margin-right: 0; /* Remove margin for list items */
   }
   
   .nav-list a {
@@ -99,6 +106,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 16px;
+    padding: 10px; /* Add padding for better touch interactions on mobile */
   }
   
   .menu-toggle {
@@ -226,6 +234,18 @@
   /* ==========================================================================
   Media Queries for Responsive Design.
   ========================================================================== */
+  
+  /* ----- Mobile-Only Styles ----- */
+  
+  @media only screen and (max-width: 767px) {
+    .nav-list {
+      display: none;
+    }
+  
+    .nav-list.show {
+      display: flex;
+    }
+  }
 
   /* ----- Tablet Styles ----- */
 
@@ -246,6 +266,14 @@
         left: 0;
         width: 100%;
         background-color: #333;
+      }
+
+      .nav-list li {
+        margin-right: 15px;
+      }
+
+      .nav-list a {
+        padding: 0;
       }
     
       .nav-list.show {
@@ -268,10 +296,17 @@
 
    /* ----- Landscape tablets and iPad Pro Styles ----- */
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1060px) {
     /*Landscape tablets and iPad Pro styles here*/
 
       /* Header styles */
+
+      .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
 
       /* General - Sections styles */
 
