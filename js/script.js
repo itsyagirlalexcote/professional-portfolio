@@ -1,10 +1,20 @@
 // Hamburger menu
 
-document.addEventListener('DOMContentLoaded', function () {
-  var mobileMenuToggle = document.getElementById('mobile-menu');
-  var navList = document.querySelector('.nav-list');
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-  mobileMenuToggle.addEventListener('click', function () {
-    navList.classList.toggle('show');
-  });
-});
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}

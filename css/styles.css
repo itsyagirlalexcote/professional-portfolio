@@ -11,10 +11,25 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
    html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
   }
   
   ::-moz-selection {
@@ -75,8 +90,62 @@
 
   }
 
+  /* Nav Bar styles */
 
+  .nav-logo img {
+    width: 1.6em;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 5rem;
+  }
+
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+  }
+
+  .nav-link:hover{
+    color: #f72d81;
+  }
+
+  .nav-logo {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #482ff7;
+  }
+
+  /* Hamburger styles */
+  .hamburger {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
   
+  /* Headshot img styles */
 
   .profile-img-wrapper img {
     width: 25%;
@@ -196,6 +265,46 @@
   
   @media only screen and (max-width: 767px) {
     
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
 
   /* ----- Tablet Styles ----- */
 
@@ -221,7 +330,7 @@
 
    /* ----- Landscape tablets and iPad Pro Styles ----- */
 
-  @media only screen and (min-width: 1060px) {
+  @media only screen and (min-width: 1024px) {
     /*Landscape tablets and iPad Pro styles here*/
 
       /* Header styles */
