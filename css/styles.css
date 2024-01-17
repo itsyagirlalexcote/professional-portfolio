@@ -82,6 +82,10 @@
     font-weight: 300;
   }
 
+  .content-wrapper {
+    padding-top: 70px;
+  }
+
 
   /* ----- Header - Footer styles ----- */
 
@@ -107,12 +111,20 @@
     align-items: center;
     padding: 1rem 1.5rem;
     border-bottom: 1px solid #E2E8F0;
+    background-color: white; 
+    padding: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
 
   .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -18px;
   }
 
   .nav-item {
