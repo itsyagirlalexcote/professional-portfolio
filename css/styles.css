@@ -95,10 +95,6 @@
 
   }
 
-  header h1 {
-    font-weight: 300;
-  }
-
   /* Nav Bar styles */
 
   .nav-logo img {
@@ -160,6 +156,37 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
+  }
+
+  header h1 {
+    font-weight: 300;
+  }
+
+  /* Waving emoji animation styles */
+
+  span.waving-emoji {
+    cursor: pointer;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count:calc(5);  
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  span.waving-emoji:hover {
+    animation-name: wave-animation;
+    animation-iteration-count: infinite;  
+  }
+
+  @keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
   }
   
   /* Headshot img styles */
