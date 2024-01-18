@@ -107,19 +107,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.25rem;
     border-bottom: 1px solid #E2E8F0;
     background-color: white; 
-    padding: 10px;
     color: white;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-  }
-
-  .navbar .content-wrapper {
-    width: 100%;
   }
 
   .nav-menu {
