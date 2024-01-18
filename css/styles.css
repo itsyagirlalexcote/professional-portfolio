@@ -325,7 +325,7 @@
     
     .nav-menu {
       position: fixed;
-      left: -100%;
+      right: -100%;
       top: 5rem;
       flex-direction: column;
       background-color: #fff;
@@ -338,7 +338,7 @@
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0;
     }
 
     .nav-item {
