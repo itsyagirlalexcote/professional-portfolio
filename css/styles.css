@@ -100,7 +100,7 @@
   /* Nav Bar styles */
 
   .nav-logo img {
-    width: 1.6em;
+    width: 1.5em;
   }
 
   .navbar {
@@ -136,7 +136,7 @@
   .nav-link{
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%);
   }
 
   .nav-link:hover{
@@ -146,7 +146,6 @@
   .nav-logo {
     font-size: 1.75rem;
     font-weight: 500;
-    color: #482ff7;
   }
 
   /* Hamburger styles */
@@ -222,7 +221,7 @@
   /* Footer */
 
   footer {
-
+    
   }
 
   /* ----- Mobile styles - Sections ----- */
@@ -332,7 +331,7 @@
       width: 100%;
       border-radius: 10px;
       text-align: center;
-      transition: 0.3s;
+      transition: 0.4s;
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05);
     }
