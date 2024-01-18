@@ -39,7 +39,7 @@ Most importantly, I practiced and saw growth in my problem solving abilities. In
 
 ## Author
 
-- Website - [Alexandra Cote-Lahue](...)
+- Website - [Alexandra Cote-Lahue](https://itsyagirlalexcote.github.io/professional-portfolio/)
 - GitHub - [@itsyagirlalexcote](https://github.com/itsyagirlalexcote)
 - LinkedIn - [@alexandra-cote-lahue](https://www.linkedin.com/in/alexandra-cote-lahue/)
 
