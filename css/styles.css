@@ -219,6 +219,35 @@
     
   }
 
+  footer .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* Footer icon styles */
+  
+  footer ul {
+    width: 40%;
+    margin: auto;
+  }
+
+  footer .social-icons li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social-icons li i {
+    font-size: 1.875rem;
+    color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%);
+  }
+  
+  .social-icons li i:hover {
+    font-size: 3rem;
+  }
+
   /* ----- Mobile styles - Sections ----- */
 
   /* General - Sections */
