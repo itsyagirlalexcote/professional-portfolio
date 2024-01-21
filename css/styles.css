@@ -156,6 +156,7 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
+    border-radius: 5px;
   }
 
   header h1 {
@@ -225,7 +226,7 @@
   }
   
   /* Footer icon styles */
-  
+
   footer ul {
     width: 40%;
     margin: auto;
