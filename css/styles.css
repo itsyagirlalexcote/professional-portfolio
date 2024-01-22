@@ -247,7 +247,7 @@
 
   footer .social-icons li i {
     font-size: 1.875rem;
-    color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%);
+    background-color: linear-gradient(to right, #9846FF 0%, #FF4646 100%);
   }
   
   .social-icons li i:hover {
@@ -306,12 +306,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
     padding: 5px 0 5px 0;
     width: 30%;
     border-radius: 1rem;
-    margin: auto;
-    background-color: #9846FF;
-}
+    border-color: #f8f3ff;
+    margin: 0 auto;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #9846FF 0%, #FF4646 100%);
+  }
+  
+
+  .btn {
+  flex: 1 1 auto;
+  text-align: center;
+  transition: 0.5s;
+  color: white;
+ 
+  }
 
   /* Tech Stack */
 
