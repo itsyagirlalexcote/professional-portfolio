@@ -18,3 +18,7 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+// Show More feature for projects section:
+
+const showMore = document.querySelector(".")

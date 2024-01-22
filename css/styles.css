@@ -76,6 +76,7 @@
      ========================================================================== */
   
   /* ----- General styles ----- */
+
   body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -87,6 +88,12 @@
     padding-top: 70px;
     margin: auto;
     width: 90%;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 10%;
   }
 
 
@@ -256,13 +263,6 @@
 
   /* ----- Mobile styles - Sections ----- */
 
-  /* General - Sections */
-
-  h2 {
-    text-align: center;
-    font-size: 2rem;
-}
-
   /* Projects */
 
   .project-item-wrapper {
@@ -304,7 +304,7 @@
     margin-inline: 5%;
   }
 
-  button.project-link {
+  button {
     margin: 10px 0 10px 0;
     display: flex;
     justify-content: center;
@@ -312,7 +312,7 @@
     align-content: center;
     flex-wrap: wrap;
     padding: 5px 0 5px 0;
-    width: 30%;
+    width: 35%;
     border-radius: 1rem;
     border-color: #f8f3ff;
     margin: 0 auto;
@@ -320,7 +320,6 @@
     background-size: 200% auto;
     background-image: linear-gradient(to right, #9846FF 0%, #FF4646 100%);
   }
-  
 
   .btn {
   flex: 1 1 auto;
@@ -333,6 +332,20 @@
   /* Tech Stack */
 
   /* About */
+
+  /* About button style */
+
+  .arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
 
 
 
