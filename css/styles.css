@@ -80,6 +80,7 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    background-color: white; 
   }
 
   .content-wrapper {
@@ -95,6 +96,10 @@
 
   header {
 
+  }
+
+  .profile-intro {
+    padding: 2em 0 0 0;
   }
 
   /* Nav Bar styles */
@@ -255,8 +260,24 @@
 
   /* Projects */
 
+  .project-item-wrapper {
+    background-color: #f8f3ff;
+    width: 90%;
+    margin: auto;
+    border-radius: 1.25rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+
   img.project-img {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    border-radius: 1.25rem;
+    width: 90%;
+    margin: auto;
   }
 
   /* Tech Stack */
