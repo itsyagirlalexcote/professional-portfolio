@@ -258,6 +258,11 @@
 
   /* General - Sections */
 
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
   /* Projects */
 
   .project-item-wrapper {
@@ -265,20 +270,48 @@
     width: 90%;
     margin: auto;
     border-radius: 1.25rem;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
-
 
   img.project-img {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-    border-radius: 1.25rem;
     width: 90%;
+    border-radius: 0.75rem;
     margin: auto;
   }
+
+  .project-item h4 {
+    display: block;
+    font-size: 1.25em;
+    margin-block-start: 0.60em;
+    margin-block-end: 0.60em;
+    margin-inline: 5%;
+    font-weight: bold;
+  }
+
+  .project-item p {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.60em;
+    margin-block-end: 0.60em;
+    margin-inline: 5%;
+  }
+
+  button.project-link {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    width: 30%;
+    border-radius: 1rem;
+    margin: auto;
+    background-color: #9846FF;
+}
 
   /* Tech Stack */
 
