@@ -278,10 +278,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
     width: 90%;
     border-radius: 0.75rem;
     margin: auto;
+  }
+
+  .project-item {
+    padding: 5% 0;
   }
 
   .project-item h4 {
