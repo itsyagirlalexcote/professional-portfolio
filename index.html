@@ -40,7 +40,7 @@
         <div class="nav-wrapper">              
             <nav class="navbar">
                 <div class="about-swipe">
-                    <a href="#about" class="nav-logo"><img src="img/Alexandra-logo.jpg"></a>
+                    <img class="nav-logo" src="img/Alexandra-logo.jpg">
                 </div>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -63,6 +63,7 @@
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Dark Mode (coming soon)</a>
                         <!-- Make dark-mode slider here later -->
+                        <!-- Will need to change the Dark Mode Slider's class or it will close the menu due to the current JS -->
                     </li>
                 </ul>
             </nav>
@@ -218,15 +219,16 @@
                         I'm an enthusiastic and highly-motivated front-end developer looking for a new full-time role. I have a B.A. in Psychology and Business Management and the range of my background includes clinical psychology, entrepreneurial projects, and non-profits. I've always thrived in collaborative environments and I bring a positive and ego-free attitude to the table!
                     </h3>
                     <br>
-                    <h3>
-                        I'm passionate about creating engaging online experiences and bringing ideas to life in the digital world. I enjoy the process of getting to know the user and creating something wonderful that is tailored to fit their needs. When I'm not coding, you can find me playing sports, painting, listening to a podcast, or spending time with my cat Millie.
-                    </h3>
                     <button>
                         <a class="btn" href="" target="_blank">
-                            <p><i class="arrow left"></i> Show More</p>
+                            <p>Show More <i class="arrow down"></i></p>
                         </a>
-                        <!-- Add small arrow in the button -->
                     </button>
+                    <div class="extra-about">
+                        <h3>
+                        I'm passionate about creating engaging online experiences and bringing ideas to life in the digital world. I enjoy the process of getting to know the user and creating something wonderful that is tailored to fit their needs. When I'm not coding, you can find me playing sports, painting, listening to a podcast, or spending time with my cat Millie.
+                        </h3>
+                    </div>
                 </div>
             </div>
         </section>

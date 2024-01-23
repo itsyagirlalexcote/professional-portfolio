@@ -112,7 +112,7 @@
 
   /* Nav Bar styles */
 
-  .nav-logo img {
+  img.nav-logo {
     width: 2em;
   }
 
@@ -363,9 +363,9 @@
     padding: 3px;
   }
 
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 
 

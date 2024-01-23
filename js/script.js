@@ -1,4 +1,4 @@
-// Hamburger menu
+// Hamburger Menu
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -19,6 +19,9 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-// Show More feature for projects section:
 
-const showMore = document.querySelector(".")
+
+
+
+
+
