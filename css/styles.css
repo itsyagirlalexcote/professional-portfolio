@@ -296,6 +296,12 @@
     width: 90%;
     border-radius: 0.75rem;
     margin: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  img.project-img:hover {
+    filter: grayscale(0%);
   }
 
   .project-item {
