@@ -362,6 +362,23 @@
 
   /* Tech Stack */
 
+  img.skill-img {
+    width: 25%;
+    border-radius: 5%;
+  }
+
+  .fa-html5:before,
+  .fa-css3:before,
+  .fa-js:before,
+  .fa-react:before,
+  .fa-wordpress:before,
+  .fa-git-alt:before,
+  .fa-github:before {
+    content: "\f13b";
+    font-size: 2rem;
+    color: #d879fd;
+  }
+
   ul.skills-wrapper {
     display: flex;
     flex-wrap: wrap;
