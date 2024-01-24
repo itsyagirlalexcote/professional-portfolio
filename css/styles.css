@@ -248,6 +248,13 @@
     text-align: center;
   }
 
+  h3.contact-tagline {
+    font-weight: 300;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
   footer ul {
     width: 40%;
     margin: auto;
@@ -273,6 +280,11 @@
   .social-icons li i:hover {
     font-size: 3rem;
   }
+
+  address {
+    text-align: center;
+  }
+
 
   /* ----- Mobile styles - Sections ----- */
 
