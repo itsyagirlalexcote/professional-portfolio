@@ -247,8 +247,6 @@
     color: white;
     text-align: center;
   }
-  
-  
 
   footer ul {
     width: 40%;
@@ -351,6 +349,21 @@
   }
 
   /* Tech Stack */
+
+  ul.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  li.skill {
+    list-style: none;
+    width: 60%;
+    text-align: center;
+  }
 
   /* About */
 
