@@ -362,8 +362,6 @@
 
   /* Tech Stack */
 
-  
-
   img.skill-img {
     width: 30%;
     border-radius: 10%;
@@ -383,6 +381,10 @@
     width: 40%;
     padding: 10px;
     text-align: center;
+  }
+
+  h4.tool-name {
+    padding: 10px 0;
   }
 
   /* About */
