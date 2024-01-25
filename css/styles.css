@@ -362,24 +362,14 @@
 
   /* Tech Stack */
 
+  
+
   img.skill-img {
-    width: 25%;
-    border-radius: 5%;
+    width: 30%;
+    border-radius: 10%;
   }
 
-  .fa-html5:before,
-  .fa-css3:before,
-  .fa-js:before,
-  .fa-react:before,
-  .fa-wordpress:before,
-  .fa-git-alt:before,
-  .fa-github:before {
-    content: "\f13b";
-    font-size: 2rem;
-    color: #d879fd;
-  }
-
-  ul.skills-wrapper {
+  .skills-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -388,9 +378,10 @@
     align-items: center;
   }
 
-  li.skill {
+  .skill {
     list-style: none;
-    width: 60%;
+    width: 40%;
+    padding: 10px;
     text-align: center;
   }
 
