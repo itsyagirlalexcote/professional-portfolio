@@ -31,6 +31,7 @@
 
   a {
     text-decoration: none;
+    cursor: pointer;
   }
   
   ::-moz-selection {
@@ -388,6 +389,27 @@
   }
 
   /* About */
+
+  img.snap {
+    width: 100%;
+    border-radius: 5px;
+    background-clip: padding-box;
+    
+  }
+
+  .snaps-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-snap {
+    width: 40%;
+    padding: 10px;
+  }
 
   /* About button style */
 
