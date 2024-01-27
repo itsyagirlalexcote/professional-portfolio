@@ -1,3 +1,12 @@
+// Scroll to top on reload
+
+document.addEventListener('DOMContentLoaded', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
 // Hamburger Menu
 
 const hamburger = document.querySelector(".hamburger");
@@ -19,7 +28,26 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+// Collapsible project sections
 
+const collapse = document.getElementsByClassName("collapsible");
+let i;
+
+for (i = 0; i < collapse.length; i++) {
+  collapse[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    const contents = this.parentElement.querySelectorAll(".project-content");
+
+    contents.forEach(function(content) {
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  });
+}
 
 
 
