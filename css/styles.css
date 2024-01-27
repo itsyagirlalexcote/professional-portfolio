@@ -329,12 +329,50 @@
   }
 
   .project-item p {
-    display: block;
     font-size: 1em;
     margin-block-start: 0.60em;
     margin-block-end: 0.60em;
     margin-inline: 5%;
   }
+
+
+  /* trial collapsible */
+
+  .collapsible {
+    background-color: #eee;
+    color: #ffffff;
+    cursor: pointer;
+    width: 10%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .project-content {
+    padding: 0 18px;
+    display: none;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+
 
   button {
     margin: 10px 0 10px 0;
