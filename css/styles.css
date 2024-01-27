@@ -98,6 +98,29 @@
     padding-bottom: 10%;
   }
 
+  button {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 5px 0 5px 0;
+    width: 35%;
+    border-radius: 1rem;
+    border: none;
+    margin: 0 auto;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #9846FF 0%, #FF4646 80%);
+  }
+
+  .btn {
+  flex: 1 1 auto;
+  text-align: center;
+  transition: 0.5s;
+  color: white;
+  }
 
   /* ----- Header - Footer styles ----- */
 
@@ -319,7 +342,7 @@
     padding: 5% 0;
   }
 
-  .project-item h4 {
+  .project-text h4 {
     display: block;
     font-size: 1.25em;
     margin-block-start: 0.60em;
@@ -328,15 +351,14 @@
     font-weight: bold;
   }
 
-  .project-item p {
+  .project-text p {
     font-size: 1em;
     margin-block-start: 0.60em;
     margin-block-end: 0.60em;
     margin-inline: 5%;
   }
 
-
-  /* trial collapsible */
+  /* Collapsible project sections */
 
   .collapsible {
     background-color: #eee;
@@ -365,38 +387,17 @@
   }
 
   .project-content {
-    padding: 0 18px;
     display: none;
-    border-radius: 0.75rem;
     overflow: hidden;
-    background-color: #ffffff;
   }
 
-
-
-  button {
-    margin: 10px 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    padding: 5px 0 5px 0;
-    width: 35%;
-    border-radius: 1rem;
-    border-color: #f8f3ff;
-    margin: 0 auto;
-    transition: 0.5s;
-    background-size: 200% auto;
-    background-image: linear-gradient(to right, #9846FF 0%, #FF4646 100%);
+  .project-content p {
+    padding: 0 18px;
+    border-radius: 0.75rem;
   }
-
-  .btn {
-  flex: 1 1 auto;
-  text-align: center;
-  transition: 0.5s;
-  color: white;
- 
+  
+  .project-text {
+    padding-bottom: 5%;
   }
 
   /* Tech Stack */
