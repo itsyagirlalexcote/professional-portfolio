@@ -37,13 +37,15 @@ for (i = 0; i < collapse.length; i++) {
   collapse[i].addEventListener("click", function() {
     this.classList.toggle("active");
 
-    const contents = this.parentElement.querySelectorAll(".project-content");
+    const contents = this.parentElement.querySelectorAll(".project-content, .about-content");
 
     contents.forEach(function(content) {
-      if (content.style.display === "block") {
+      if (content.style.display === "flex") {
         content.style.display = "none";
+      } else if (content.style.display === "none") {
+        content.style.display = "flex";
       } else {
-        content.style.display = "block";
+        content.style.display = "flex";
       }
     });
   });
