@@ -371,7 +371,7 @@
     font-size: 15px;
   }
 
-  .active, .collapsible:hover {
+  .collapse.active, .collapsible:hover {
     background-color: #ccc;
   }
 
@@ -382,7 +382,7 @@
     float: right;
   }
   
-  .active:after {
+  .collapse.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 
