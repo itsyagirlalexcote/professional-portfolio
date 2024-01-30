@@ -98,6 +98,15 @@
     padding-bottom: 10%;
   }
 
+  p.text-wrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
   button {
     margin: 10px 0 10px 0;
     display: flex;
@@ -429,11 +438,14 @@
 
   /* About */
 
+  p.about-content {
+    display: none;
+  }
+
   img.snap {
     width: 100%;
     border-radius: 5px;
     background-clip: padding-box;
-    
   }
 
   .snaps-wrapper {
@@ -443,6 +455,10 @@
     align-content: center;
     flex-direction: row;
     align-items: center;
+  }
+
+  .snaps-wrapper.about-content {
+    display: none;
   }
 
   .about-snap {
