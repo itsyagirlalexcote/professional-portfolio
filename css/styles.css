@@ -124,6 +124,10 @@
     background-image: linear-gradient(to right, #9846FF 0%, #FF4646 80%);
   }
 
+  button:hover {
+    background-image: linear-gradient(to right, #9846FF 0%, #FF4646 50%);
+  }
+
   .btn {
   flex: 1 1 auto;
   text-align: center;
@@ -318,6 +322,13 @@
     text-align: center;
   }
 
+  p.copyright {
+    padding-top: 5%;
+    font-size: 0.75em;
+    width: 90%;
+    margin: auto;
+  }
+
 
   /* ----- Mobile styles - Sections ----- */
 
@@ -373,7 +384,8 @@
     background-color: #eee;
     color: #ffffff;
     cursor: pointer;
-    width: 10%;
+    width: 15%;
+    max-width: 50px;
     border: none;
     text-align: center;
     outline: none;
@@ -588,6 +600,12 @@
       
 
       /* General - Sections styles */
+
+      /* Collapsible Section Styles */
+
+      .collapsible {
+        max-width: 75px;
+      }
 
       /* Projects styles */
 
