@@ -102,6 +102,22 @@
   p.text-wrapper {
     width: 85%;
     margin: auto;
+    /* background-color: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0px 0px 6px #c1c0c0; */
+  }
+
+  .extra-skills {
+    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+  }
+
+  .extra-skills .text-wrapper {
+    background-color: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0px 0px 6px #c1c0c0;
+    padding: 10px;
   }
 
   strong {
@@ -258,6 +274,7 @@
     min-width: 175px;
     border-radius: 50%;
     object-fit: cover;
+    
     filter: grayscale(100%);
     transition: filter 0.3s ease;
   }
@@ -336,12 +353,13 @@
   /* Projects */
 
   .project-item-wrapper {
-    background-color: #f8f3ff;
     width: 90%;
     margin: auto;
     border-radius: 1.25rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px #c1c0c0;
   }
 
   img.project-img {
