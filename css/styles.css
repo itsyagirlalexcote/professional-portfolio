@@ -344,7 +344,7 @@
 
   a.email {
     margin-bottom: 5%;
-    background-color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%);
+    /* background-color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%); */
   }
 
   p.copyright {
