@@ -464,14 +464,21 @@
     margin-inline: 5%;
   }
 
+  .project-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
   /* Collapsible project sections */
 
   .collapsible {
     background-color: #eee;
     color: #ffffff;
     cursor: pointer;
-    width: fit-content;
-    /* max-width: 50px; */
+    max-width: 40px;
+    max-height: 40px;
     border: none;
     text-align: center;
     outline: none;
@@ -591,6 +598,7 @@
 
   button.collapsible.about-see-more {
     width: fit-content;
+    max-width: none;
   }
 
   .collapsible.about-see-more .fa-chevron-down {
