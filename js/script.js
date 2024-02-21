@@ -28,7 +28,7 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-// Collapsible project sections
+// Collapsible sections
 
 const collapse = document.getElementsByClassName("collapsible");
 let i;

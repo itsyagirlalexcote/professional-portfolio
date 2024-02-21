@@ -125,10 +125,10 @@
     flex-wrap: wrap;
     padding: 5px 0 5px 0;
     width: 35%;
-    border-radius: 1rem;
+    border-radius: 2rem;
     border: none;
     margin: 0 auto;
-    transition: 0.5s;
+    transition: background-image 0.3s ease;
     background-size: 200% auto;
     background-image: linear-gradient(to right, #9846FF 0%, #FF4646 80%);
   }
@@ -470,20 +470,16 @@
     background-color: #eee;
     color: #ffffff;
     cursor: pointer;
-    width: 15%;
-    max-width: 50px;
+    width: fit-content;
+    /* max-width: 50px; */
     border: none;
     text-align: center;
     outline: none;
     font-size: 15px;
-  }
-
-  .collapse.active, .collapsible:hover {
-    background-color: #ccc;
+    padding: 10px;
   }
 
   .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: white;
     float: right;
@@ -593,16 +589,12 @@
 
   /* About button style */
 
-  .arrow {
-    border: solid rgb(255, 255, 255);
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
+  button.collapsible.about-see-more {
+    width: fit-content;
   }
 
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  .collapsible.about-see-more .fa-chevron-down {
+    margin-left: 5px;
   }
 
 
