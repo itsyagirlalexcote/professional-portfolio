@@ -51,14 +51,14 @@ for (i = 0; i < collapse.length; i++) {
   });
 }
 
-// Project slide in 
+// Slide-in animation
 document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', revealProjects);
 
   function revealProjects() {
-    const projectSections = document.querySelectorAll('.project-item-wrapper');
+    const slideSections = document.querySelectorAll('.project-item-wrapper, .extra-skills');
 
-    projectSections.forEach((section) => {
+    slideSections.forEach((section) => {
       const sectionTop = section.getBoundingClientRect().top;
       const windowHeight = window.innerHeight;
 

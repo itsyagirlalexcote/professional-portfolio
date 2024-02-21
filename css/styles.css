@@ -484,6 +484,15 @@
     padding-top: 10%;
     width: 80%;
     margin: auto;
+    /* slide-in animatiob */
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .extra-skills.slide-in {
+    opacity: 1;
+    transform: translateX(0);
   }
 
   .extra-skills .text-wrapper {
