@@ -51,6 +51,23 @@ for (i = 0; i < collapse.length; i++) {
   });
 }
 
+// Project slide in 
+document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('scroll', revealProjects);
+
+  function revealProjects() {
+    const projectSections = document.querySelectorAll('.project-item-wrapper');
+
+    projectSections.forEach((section) => {
+      const sectionTop = section.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (sectionTop < windowHeight / 1.5) {
+        section.classList.add('slide-in');
+      }
+    });
+  }
+});
 
 
 

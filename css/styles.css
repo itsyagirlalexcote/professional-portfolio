@@ -335,7 +335,6 @@
   }
   
   .social-icons li i:hover {
-    /* font-size: 3rem; */
     transform: translateY(-10px);
   }
 
@@ -369,6 +368,15 @@
     margin-top: 1rem;
     background-color: #fff;
     box-shadow: 0px 0px 6px #c1c0c0;
+    /* slide-in animation */
+    opacity: 0;
+    transform: translateX(-50px); 
+    transition: opacity 0.7s, transform 0.7s;
+  }
+
+  .project-item-wrapper.slide-in {
+    opacity: 1;
+    transform: translateX(0);
   }
 
   img.project-img {
