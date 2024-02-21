@@ -85,6 +85,10 @@
     background-color: white; 
   }
 
+  body.dark {
+    background-color: #222;
+  }
+
   .content-wrapper {
     padding-top: 35px;
     /* padding-bottom:35px; */
@@ -202,6 +206,51 @@
 
   .nav-link:hover{
     color: #f72d81;
+  }
+
+  .switch-container {
+    text-align: center;
+    padding-bottom: 2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .switch-container p {
+    padding: 0 1em;
+    color: #9846FF;
+  }
+
+  .switch-container input {
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  
+  .switch {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    background-color: #222;
+    border-radius: 34px;
+  }
+  
+  .ball {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .ball.move-right {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
   }
 
   .nav-logo {
