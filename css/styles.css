@@ -329,12 +329,14 @@
 
   footer .social-icons li i {
     font-size: 1.875rem;
-    padding-top: ;
+    transition: transform 0.3s ease-in-out;
+    /* padding-top: ; */
     /* color: linear-gradient(to right, #9846FF 0%, #FF4646 100%); */
   }
   
   .social-icons li i:hover {
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    transform: translateY(-10px);
   }
 
   address {
