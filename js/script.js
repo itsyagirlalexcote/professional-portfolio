@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+
 // Hamburger Menu
 
 const hamburger = document.querySelector(".hamburger");
@@ -28,7 +29,29 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+
 // Collapsible sections
+
+// const collapse = document.getElementsByClassName("collapsible");
+// let i;
+
+// for (i = 0; i < collapse.length; i++) {
+//   collapse[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+
+//     const contents = this.parentElement.querySelectorAll(".project-content, .about-content");
+
+//     contents.forEach(function(content) {
+//       if (content.style.display === "flex") {
+//         content.style.display = "none";
+//       } else if (content.style.display === "none") {
+//         content.style.display = "flex";
+//       } else {
+//         content.style.display = "flex";
+//       }
+//     });
+//   });
+// }
 
 const collapse = document.getElementsByClassName("collapsible");
 let i;
@@ -38,18 +61,24 @@ for (i = 0; i < collapse.length; i++) {
     this.classList.toggle("active");
 
     const contents = this.parentElement.querySelectorAll(".project-content, .about-content");
+    const arrowIcon = this.querySelector(".fa-chevron-down");
 
     contents.forEach(function(content) {
       if (content.style.display === "flex") {
         content.style.display = "none";
-      } else if (content.style.display === "none") {
-        content.style.display = "flex";
+        rotateArrow(arrowIcon, 0);
       } else {
         content.style.display = "flex";
+        rotateArrow(arrowIcon, 180);
       }
     });
   });
 }
+
+function rotateArrow(arrowIcon, degrees) {
+  arrowIcon.style.transform = `rotate(${degrees}deg)`;
+}
+
 
 // Slide-in animation
 
