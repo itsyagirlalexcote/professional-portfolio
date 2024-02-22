@@ -32,7 +32,6 @@
   a {
     text-decoration: none;
     cursor: pointer;
-    color:#d6b4ff
   }
   
   ::-moz-selection {
@@ -84,10 +83,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background-color: white; 
-  }
-
-  body.dark {
-    background-color: #222;
   }
 
   .content-wrapper {
@@ -166,6 +161,12 @@
     content: "hide"; 
   }
 
+  /* DARK MODE Styles */
+
+  body.dark {
+    background-color: #414141;
+  }
+
   /* ----- Header - Footer styles ----- */
 
   /* Header */
@@ -179,6 +180,11 @@
 
   .intro-tagline {
     padding-top: 10%;
+  }
+
+  h3.intro-tagline {
+    font-weight: 400;
+    font-size: 1.25rem;
   }
 
   .profile-intro {
@@ -413,6 +419,7 @@
 
   a.email {
     margin-bottom: 5%;
+    color: #d6b4ff;
     /* background-color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%); */
   }
 
@@ -703,6 +710,40 @@
 
       /* Header styles */
 
+      .navbar {
+        padding: 1.5rem 1.75rem;
+      }
+
+      .nav-link {
+        font-size: 1.75rem;
+      }
+
+      .nav-item {
+        margin-left: 2.5rem;
+      }
+
+      .switch-container {
+        padding-bottom: 0;
+      }
+      
+      .switch-container p {
+        padding: 0 0.5em;
+        font-size: 0.90rem;
+      }
+      
+      .switch {
+        width: 45px;
+        height: 24px;
+      }
+      
+      .ball {
+        height: 16px;
+        width: 16px;
+      }
+
+      .intro-tagline {
+        padding-top: 5%;
+      }
       
 
       /* General - Sections styles */
@@ -710,16 +751,75 @@
       /* Collapsible Section Styles */
 
       .collapsible {
-        max-width: 75px;
+        /* max-width: 40px; */
       }
 
       /* Projects styles */
 
+      .projects-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+      }
+
+      .project-item-wrapper {
+        width: 40%;
+      }
+
+      .project-text h4 {
+        font-size: 1.25em;
+      }
+
       /* Tech Stack styles*/
+
+      .skills-wrapper {
+        width: 80%;
+        margin: auto;
+      }
+      
+      .skill {
+        width: 25%;
+        padding: 15px 10px;
+      }
+
+      .extra-skills {
+        padding-top: 5%;
+      }
+
+      .extra-skills .text-wrapper {
+        padding: 30px;
+      }
 
       /* About styles */
 
+      p.text-wrapper {
+        width: 75%;
+        font-size: 1.25rem;
+        padding-bottom: 5%;
+      }
+
+      .about-snap {
+        width: 40%;
+        padding: 20px;
+      }
+
       /* Footer styles */
+
+      h3.contact-tagline {
+        width: 50%;
+        padding-bottom: 5%;
+      }
+
+      footer .social-icons {
+        padding: 2%;
+      }
+
+      p.copyright {
+        padding: 2% 0;
+      }
 
   }
 
