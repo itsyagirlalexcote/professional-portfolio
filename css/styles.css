@@ -504,6 +504,10 @@
     padding-bottom: 5%;
   }
 
+  button.project-link.project-content {
+    margin: 10px auto;
+  }
+
   /* Tech Stack */
 
   img.skill-img {
