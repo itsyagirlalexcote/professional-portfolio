@@ -127,7 +127,7 @@
     width: 35%;
     border-radius: 2rem;
     border: none;
-    margin: 0 auto;
+    margin: 0 15px;
     transition: background-image 0.3s ease;
     background-size: 200% auto;
     background-image: linear-gradient(to right, #9846FF 0%, #FF4646 80%);
@@ -274,10 +274,6 @@
     background-color: #101010;
     border-radius: 5px;
   }
-
-  
-
-
 
   /* Waving emoji animation styles */
 
@@ -599,6 +595,7 @@
   button.collapsible.about-see-more {
     width: fit-content;
     max-width: none;
+    margin: 0 auto;
   }
 
   .collapsible.about-see-more .fa-chevron-down {
