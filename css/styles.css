@@ -744,9 +744,27 @@
       .intro-tagline {
         padding-top: 5%;
       }
+
+      .intro-header {
+        padding-top: 110px;
+      }
+
+      h1.intro-header {
+        font-size: 2.5rem;
+      }
+
+      h3.intro-tagline {
+        font-size: 1.5rem;
+        padding-bottom: 50px;
+      }
       
 
       /* General - Sections styles */
+
+      h2 {
+        font-size: 2.75rem;
+      }
+      
 
       /* Collapsible Section Styles */
 
@@ -831,6 +849,18 @@
 
       /* Header styles */
 
+      .nav-link {
+        font-size: 2rem;
+      }
+
+      .nav-item {
+        margin-left: 3rem;
+      }
+
+      .switch-container p {
+        font-size: 1.25rem;
+      }
+
       .profile-wrapper {
         display: flex;
         flex-direction: row;
@@ -848,8 +878,14 @@
       figure.profile-img-wrapper {
         width: 40%;
         height: fit-content;
-        padding: 150px 0;
+        padding: 175px 0;
       }
+
+      .profile-img-wrapper img {
+        width: 100%;
+        max-width: 350px;
+      }
+
       header h1 {
         font-size: 2.75rem;
       }
@@ -859,6 +895,10 @@
       }
 
       /* General - Sections styles */
+
+      h2 {
+        font-size: 3rem;
+      }
 
       /* Projects styles */
 
@@ -873,10 +913,14 @@
 
   /* ----- Desktop Styles ----- */
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
       /* Header styles */
+
+      .nav-item {
+        margin-left: 5rem;
+      }
 
       /* General - Sections styles */
 
