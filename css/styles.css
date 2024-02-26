@@ -243,10 +243,17 @@
     display: flex;
     align-items: center;
   }
-  
-  .switch-container p {
-    padding: 0 1em;
-    color: #9846FF;
+
+  .fa-sun:before,
+  .fa-moon:before {
+    content: "\f185";
+    padding: 0 0.4em;
+    font-size: 1.25rem;
+    color: #f72d81;
+  }
+
+  ::before {
+    color: white;
   }
 
   .switch-container input {
@@ -374,6 +381,7 @@
 
   h2.contact-header {
     margin-top: 30px;
+    padding-bottom: 10%;
   }
 
   h3.contact-tagline {
@@ -381,7 +389,7 @@
     width: 80%;
     text-align: center;
     margin: auto;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
   }
 
   footer ul {
@@ -395,10 +403,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  ::before {
-    color: white;
   }
 
   footer .social-icons li i {
@@ -541,7 +545,7 @@
 
   .extra-skills {
     padding-top: 10%;
-    width: 80%;
+    width: 100%;
     margin: auto;
     /* slide-in animatiob */
     opacity: 0;
@@ -741,6 +745,10 @@
         width: 16px;
       }
 
+      .ball.move-right {
+        transform: translateX(21px);
+      }
+
       .intro-tagline {
         padding-top: 5%;
       }
@@ -796,7 +804,7 @@
       /* Tech Stack styles*/
 
       .skills-wrapper {
-        width: 80%;
+        width: 70%;
         margin: auto;
       }
       
@@ -816,13 +824,13 @@
       /* About styles */
 
       p.text-wrapper {
-        width: 75%;
+        width: 65%;
         font-size: 1.25rem;
         padding-bottom: 5%;
       }
 
       .about-snap {
-        width: 40%;
+        width: 35%;
         padding: 20px;
       }
 
@@ -859,6 +867,10 @@
         margin-left: 3rem;
       }
 
+      .intro-header, .intro-tagline {
+        width: 70%;
+      }
+
       .switch-container p {
         font-size: 1.25rem;
       }
@@ -867,20 +879,21 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 90%;
         padding: 40px 0 0 0;
+        margin: auto;
       }
 
       .profile-intro {
         padding: 55px 0 0 0;
-        width: 60%;
+        width: 40%;
       }
 
       figure.profile-img-wrapper {
         width: 40%;
         height: fit-content;
-        padding: 175px 0;
+        padding: 175px 0 100px 0;
       }
 
       .profile-img-wrapper img {
@@ -896,6 +909,10 @@
         font-size: 1.75rem;
       }
 
+      .intro-header, .intro-tagline {
+        width: 100%;
+      }
+
       /* General - Sections styles */
 
       h2 {
@@ -908,7 +925,26 @@
 
       /* About styles */
 
+      .about-snap {
+        width: 30%;
+      }
+
+      .snaps-wrapper {
+        width: 70%;
+        margin: auto;
+      }
+
       /* Footer styles */
+
+      h2.contact-header {
+        padding-bottom: 5%;
+      }
+
+      h3.contact-tagline {
+        width: 50%;
+        padding-bottom: 2%;
+        max-width: 390px;
+      }
 
   }
 
@@ -927,10 +963,34 @@
       /* General - Sections styles */
 
       /* Projects styles */
+    
+      .project-item-wrapper {
+        width: 40%;
+        height: fit-content;
+        min-height: 400px;
+      }
+
+      .project-text h4 {
+        font-size: 2em;
+      }
+
+      .project-text p {
+        font-size: 1.25em;
+      }
 
       /* Tech Stack styles*/
 
       /* About styles */
+
+      p.text-wrapper {
+        width: 55%;
+        font-size: 1.5rem;
+        padding-bottom: 3%;
+      }
+
+      .snaps-wrapper {
+        width: 65%;
+      }
 
       /* Footer styles */
 
