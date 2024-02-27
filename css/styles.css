@@ -92,6 +92,10 @@
     width: 90%;
   }
 
+  h1 {
+    font-size: 7vw;
+  }
+
   h2 {
     text-align: center;
     font-size: 7vw;
@@ -184,7 +188,7 @@
 
   h3.intro-tagline {
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 4.4vw;
   }
 
   .profile-intro {
@@ -752,20 +756,20 @@
         transform: translateX(21px);
       }
 
-      .intro-tagline {
+      /* .intro-tagline {
         padding-top: 5%;
-      }
+      } */
 
       .intro-header {
         padding-top: 110px;
       }
 
       h1.intro-header {
-        font-size: 2.5rem;
+        font-size: 4.6vw;
       }
 
       h3.intro-tagline {
-        font-size: 1.5rem;
+        font-size: 2.7vw;
         padding-bottom: 50px;
       }
       
@@ -806,18 +810,19 @@
 
       /* Tech Stack styles*/
 
+      img.skill-img {
+        width: 40%;
+      }
+
       .skills-wrapper {
         width: 70%;
         margin: auto;
+        max-width: 1000px;
       }
       
       .skill {
-        width: 25%;
+        width: 20%;
         padding: 15px 10px;
-      }
-
-      .extra-skills {
-        padding-top: 5%;
       }
 
       .extra-skills .text-wrapper {
@@ -878,6 +883,10 @@
         font-size: 1.25rem;
       }
 
+      h1.intro-header {
+        font-size: 4vw;
+      }
+
       .profile-wrapper {
         display: flex;
         flex-direction: row;
@@ -890,7 +899,7 @@
 
       .profile-intro {
         padding: 55px 0 0 0;
-        width: 40%;
+        width: 52%;
       }
 
       figure.profile-img-wrapper {
@@ -909,7 +918,7 @@
       }
 
       h3.intro-tagline {
-        font-size: 1.75rem;
+        font-size: 2.5vw;
       }
 
       .intro-header, .intro-tagline {
@@ -970,7 +979,6 @@
       .project-item-wrapper {
         width: 40%;
         height: fit-content;
-        min-height: 400px;
       }
 
       .project-text h4 {
@@ -986,7 +994,6 @@
       /* About styles */
 
       p.text-wrapper {
-        width: 55%;
         font-size: 1.5rem;
         padding-bottom: 3%;
       }
