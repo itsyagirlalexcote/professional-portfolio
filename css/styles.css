@@ -167,9 +167,23 @@
 
   /* DARK MODE Styles */
 
-  body.dark {
+  .dark {
     background-color: #414141;
+    color: white;
   }
+
+  .collapsible.dark {
+    background-image: linear-gradient(to right, #c18fff 0%, #ff9393 80%);
+  }
+
+  .navbar.dark {
+    border-bottom: 1px solid #2b2b2b;
+    background-color: rgb(181, 181, 181); 
+  }
+
+  /* .nav-logo.dark {
+    background-image: "img/Alexandra-logo-darkmode-nobg.png";
+  } */
 
   /* ----- Header - Footer styles ----- */
 
