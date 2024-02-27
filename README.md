@@ -27,6 +27,7 @@ Finally, I tested all parts of the portfolio and send it to my mentor and other 
 - Visual Studio Code
 - Git + GitHub
 
+
 ### What I learned
 
 The last time I made a portfolio I did not make a proper design comp first and just this step greatly helped in organizing my work. I also learned the basics of Figma by taking the time to do this step. 
@@ -34,6 +35,8 @@ The last time I made a portfolio I did not make a proper design comp first and j
 I learned more about using animations and challenged myself to create animations that I had never used before. 
 
 I learned more about making clean and simple designs that feel more user friendly. This boosted my confidence as a developer as some of my previous projects were properly coded but were not as aethetically pleasing or centered on user-friendliness.
+
+I learned how to properly make a Dark Mode feature and how to style this. I had learned to integrate the JS for this but I did not learn the styling process and in the process I looked into making it WCAG compliant.
 
 Most importantly, I practiced and saw growth in my problem solving abilities. Incorporating new features and styles I had never worked on before allowed me to practice problem solving using more efficient Chat GPT prompts and Google searches.
 
