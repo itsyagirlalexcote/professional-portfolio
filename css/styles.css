@@ -445,10 +445,8 @@
 
   .project-item-wrapper {
     width: 90%;
-    margin: auto;
+    margin: 1.5rem;
     border-radius: 1.25rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
     background-color: #fff;
     box-shadow: 0px 0px 6px #c1c0c0;
     /* slide-in animation */
@@ -516,9 +514,9 @@
     border-radius: 0.75rem;
   }
   
-  .project-text {
+  /* .project-text {
     padding-bottom: 5%;
-  }
+  } */
 
   button.project-link.project-content {
     margin: 10px auto;
@@ -765,7 +763,7 @@
       }
 
       h1.intro-header {
-        font-size: 4.6vw;
+        font-size: 5vw;
       }
 
       h3.intro-tagline {
@@ -777,7 +775,7 @@
       /* General - Sections styles */
 
       h2 {
-        font-size: 2.75rem;
+        font-size: 4vw;
       }
       
 
@@ -793,7 +791,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         width: 90%;
         margin: auto;
       }
@@ -884,7 +882,7 @@
       }
 
       h1.intro-header {
-        font-size: 4vw;
+        font-size: 3vw;
       }
 
       .profile-wrapper {
@@ -899,17 +897,17 @@
 
       .profile-intro {
         padding: 55px 0 0 0;
-        width: 52%;
+        width: 70%;
       }
 
       figure.profile-img-wrapper {
-        width: 40%;
+        width: 30%;
         height: fit-content;
         padding: 175px 0 100px 0;
       }
 
       .profile-img-wrapper img {
-        width: 100%;
+        /* width: 100%; */
         max-width: 350px;
       }
 
@@ -918,18 +916,18 @@
       }
 
       h3.intro-tagline {
-        font-size: 2.5vw;
+        font-size: 1.7vw;
       }
 
       .intro-header, .intro-tagline {
-        width: 100%;
+        width: 80%;
       }
 
       /* General - Sections styles */
 
-      h2 {
+      /* h2 {
         font-size: 3rem;
-      }
+      } */
 
       /* Projects styles */
 
