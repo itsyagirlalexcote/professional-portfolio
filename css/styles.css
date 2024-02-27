@@ -94,7 +94,7 @@
 
   h2 {
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 7vw;
     padding-bottom: 5%;
     margin-top: 70px;
     font-weight: 300;
@@ -479,13 +479,13 @@
 
   .project-text h4 {
     display: block;
-    font-size: 1.10em;
+    font-size: 5vw;
     margin-block-start: 0.6em;
     margin-block-end: 0.6em;
-    margin-inline: 5%;
     font-weight: 300;
     text-wrap: wrap;
-    max-width: 60%;
+    max-width: 65%;
+    margin: auto 0 auto 5%;
   }
 
   .project-text p {
@@ -546,7 +546,7 @@
   }
 
   .extra-skills {
-    padding-top: 10%;
+    padding-top: 3%;
     width: 100%;
     margin: auto;
     /* slide-in animatiob */
@@ -569,6 +569,7 @@
 
   h4.tool-name {
     padding: 10px 0;
+    font-weight: 500;
   }
 
   /* About */
@@ -796,11 +797,11 @@
       .project-item-wrapper {
         width: 40%;
         height: fit-content;
-        min-height: 250px;
+        min-height: 200px;
       }
 
       .project-text h4 {
-        font-size: 1.25em;
+        font-size: 2vw;
       }
 
       /* Tech Stack styles*/
@@ -973,7 +974,7 @@
       }
 
       .project-text h4 {
-        font-size: 2em;
+        font-size: 2vw;
       }
 
       .project-text p {
