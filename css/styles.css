@@ -95,7 +95,7 @@
   h2 {
     text-align: center;
     font-size: 2.25rem;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     margin-top: 70px;
     font-weight: 300;
   }
@@ -179,7 +179,7 @@
   }
 
   .intro-tagline {
-    padding-top: 10%;
+    padding-top: 4%;
   }
 
   h3.intro-tagline {
@@ -206,7 +206,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.25rem;
+    padding: 18px 36px 18px 20px;
     border-bottom: 1px solid #E2E8F0;
     background-color: white; 
     color: white;
@@ -381,7 +381,7 @@
 
   h2.contact-header {
     margin-top: 30px;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
 
   h3.contact-tagline {
@@ -534,6 +534,8 @@
     align-content: center;
     flex-direction: row;
     align-items: center;
+    max-width: 400px;
+    margin: auto;
   }
 
   .skill {
