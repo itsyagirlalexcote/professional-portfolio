@@ -168,22 +168,64 @@
   /* DARK MODE Styles */
 
   .dark {
-    background-color: #414141;
+    background-color: #222;
     color: white;
   }
 
-  .collapsible.dark {
+  .dark .collapsible {
     background-image: linear-gradient(to right, #c18fff 0%, #ff9393 80%);
   }
 
-  .navbar.dark {
+  .dark .project-item-wrapper {
     border-bottom: 1px solid #2b2b2b;
-    background-color: rgb(181, 181, 181); 
+    background-color: rgb(116, 116, 116); 
   }
 
-  /* .nav-logo.dark {
-    background-image: "img/Alexandra-logo-darkmode-nobg.png";
-  } */
+  .dark .extra-skills .text-wrapper {
+    background-color: #222;
+    box-shadow: none;
+    width: 72%;
+  }
+
+  .dark .navbar {
+    background-color: #111;
+    color: white;
+  }
+
+  .dark .bar {
+    background-color: white;
+  }
+
+  .dark .nav-menu.active {
+    background-color: #222;
+  }
+
+  .dark .nav-link {
+    color:#d0aaff;
+  }
+
+  .dark .switch {
+    background-color: white;
+  }
+
+  .dark .ball {
+    background-color: #222;
+  }
+
+  .dark .skills-wrapper {
+    background-color: #000000;
+    color: white;
+    padding: 50px 0 30px 0;
+    border-radius: 2rem;
+  }
+
+  .dark .skill-img {
+    filter:invert(100%);
+  }
+
+  .dark footer {
+    background-color: #111;
+  }
 
   /* ----- Header - Footer styles ----- */
 
