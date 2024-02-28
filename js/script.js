@@ -90,7 +90,7 @@ themeSwitchInput.addEventListener("click", function () {
   if (body.classList.contains("dark")) {
     body.classList.remove("dark");
     ball.classList.remove("move-right");
-    logo.src = "img/Alexandra-logo.jpg";
+    logo.src = "img/Alexandra-logo-no-bg.png";
   } else {
     body.classList.add("dark");
     ball.classList.add("move-right");
