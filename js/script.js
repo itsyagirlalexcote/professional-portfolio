@@ -84,22 +84,16 @@ document.addEventListener('DOMContentLoaded', function () {
 const themeSwitchInput = document.querySelector("#toggle");
 const ball = document.querySelector(".ball");
 const body = document.querySelector("body");
-const navbar = document.querySelector(".navbar");
-const navLogo = document.querySelector(".nav-logo");
-const darkButton = document.querySelector(".collapsible");
+const logo = document.getElementById("toggleImage");
 
 themeSwitchInput.addEventListener("click", function () {
   if (body.classList.contains("dark")) {
     body.classList.remove("dark");
-    navbar.classList.remove("dark");
-    navLogo.classList.remove("dark");
-    darkButton.classList.remove("dark");
     ball.classList.remove("move-right");
+    logo.src = "img/Alexandra-logo.jpg";
   } else {
     body.classList.add("dark");
-    navbar.classList.add("dark");
-    navLogo.classList.add("dark");
-    darkButton.classList.add("dark");
     ball.classList.add("move-right");
+    logo.src = "img/Alexandra-logo-darkmode-nobg.png";
   }
 });
