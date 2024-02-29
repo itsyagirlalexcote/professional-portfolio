@@ -175,6 +175,10 @@
   .dark .collapsible {
     background-image: linear-gradient(to right, #c18fff 0%, #ff9393 80%);
   }
+  
+  .dark button:hover {
+    background-image: linear-gradient(to right, #c18fff 0%, #ff9393 50%);
+  }
 
   .dark .project-item-wrapper {
     border-bottom: 1px solid #2b2b2b;
