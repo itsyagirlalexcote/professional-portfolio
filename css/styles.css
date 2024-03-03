@@ -472,8 +472,6 @@
   footer .social-icons li i {
     font-size: 1.875rem;
     transition: transform 0.3s ease-in-out;
-    /* padding-top: ; */
-    /* color: linear-gradient(to right, #9846FF 0%, #FF4646 100%); */
   }
   
   .social-icons li i:hover {
@@ -488,7 +486,6 @@
   a.email {
     margin-bottom: 5%;
     color: #d6b4ff;
-    /* background-color: linear-gradient(135deg, #9846FF 0%, #FF4646 100%); */
   }
 
   p.copyright {
@@ -497,7 +494,6 @@
     width: 90%;
     margin: auto;
   }
-
 
   /* ----- Mobile styles - Sections ----- */
 
@@ -573,10 +569,6 @@
     padding: 0 18px;
     border-radius: 0.75rem;
   }
-  
-  /* .project-text {
-    padding-bottom: 5%;
-  } */
 
   button.project-link.project-content {
     margin: 10px auto;
@@ -675,7 +667,6 @@
     margin: 20px auto;
   }
 
-
   /* ==========================================================================
      Helper classes
      ========================================================================== */
@@ -770,7 +761,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-}
+  }
 
   /* ----- Tablet Styles ----- */
 
@@ -814,10 +805,6 @@
         transform: translateX(21px);
       }
 
-      /* .intro-tagline {
-        padding-top: 5%;
-      } */
-
       .intro-header {
         padding-top: 110px;
       }
@@ -836,13 +823,6 @@
 
       h2 {
         font-size: 4vw;
-      }
-      
-
-      /* Collapsible Section Styles */
-
-      .collapsible {
-        /* max-width: 40px; */
       }
 
       /* Projects styles */
@@ -985,10 +965,6 @@
 
       /* General - Sections styles */
 
-      /* h2 {
-        font-size: 3rem;
-      } */
-
       /* Projects styles */
 
       /* Tech Stack styles*/
@@ -1063,10 +1039,6 @@
       /* Footer styles */
 
   }
-
-
-  
-
   
   @media print,
     (-webkit-min-device-pixel-ratio: 1.25),
