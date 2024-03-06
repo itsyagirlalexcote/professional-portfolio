@@ -1,6 +1,6 @@
 # Alexandra's Professional Portfolio
 
-
+Professional Portfolio website showcasing Projects, Skills and an About section.
 
 ## Table of contents
 
