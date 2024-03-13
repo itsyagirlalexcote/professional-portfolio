@@ -4,10 +4,15 @@ Professional Portfolio website showcasing Projects, Skills and an About section.
 
 ## Table of contents
 
+- [Introduction](#introduction)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+
+## Introduction
+
+Professional Portfolio website showcasing Projects, Skills and an About section.
 
 ## My process
 
