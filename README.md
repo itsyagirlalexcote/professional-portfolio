@@ -1,12 +1,11 @@
 # Alexandra's Professional Portfolio
 
-Professional Portfolio website showcasing Projects, Skills and an About section.
-
 ## Table of contents
 
 - [Introduction](#introduction)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Major functions](#major-functions)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
@@ -34,6 +33,21 @@ Finally, I tested all parts of the portfolio and send it to my mentor and other 
 - Visual Studio Code
 - Git + GitHub
 
+## Major Functions
+
+- Content Display:
+    Projects: This section showcases a list of projects worked on. It includes descriptions, screenshots, and links to live demos.
+    Skills: This section highlights technical skills and expertise. It lists programming languages, frameworks, tools, and other relevant abilities.
+    About: This section provides a brief introduction about background and experience. It includes educational background, work history, and a personal statement.
+    Contact: This section offers ways for potential employers or clients to get in touch. It includes an email address and social media profiles.
+  
+- Navigation:
+    Hamburger Menu: This is a collapsible menu typically represented by three horizontal lines stacked vertically. It provides easy access to all the main sections of the portfolio by expanding to reveal a list of       navigation links when clicked.
+  
+-  User Interface:
+    Dark Mode: This function allows users to switch between a light-colored theme and a dark-colored theme for the portfolio. A dark mode can improve readability in low-light conditions and can be visually appealing to some users.
+   
+In essence, the portfolio's functionalities focus on presenting the developer's work experience, skills, and contact information in a user-friendly and visually appealing way. The hamburger menu and dark mode features enhance the user experience by making the portfolio easier to navigate and customize.
 
 ### What I learned
 
