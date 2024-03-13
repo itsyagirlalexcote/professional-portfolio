@@ -69,7 +69,7 @@ There are no external dependencies or software installations required to run thi
 
 ### Accessing the Portfolio
 
-Access this URL in your web browser to view your online portfolio: (https://itsyagirlalexcote.github.io/professional-portfolio/) 
+Access this URL in your web browser to view your online portfolio: https://itsyagirlalexcote.github.io/professional-portfolio/
 
 ## Author
 
