@@ -7,6 +7,8 @@
   - [Built with](#built-with)
   - [Major functions](#major-functions)
   - [What I learned](#what-i-learned)
+- [Build/deploy instructions](#build-deploy-instructions)
+  - [Accessing the portfolio](#accessing-the-portfolio)
 - [Author](#author)
 
 ## Introduction
@@ -33,7 +35,7 @@ Finally, I tested all parts of the portfolio and send it to my mentor and other 
 - Visual Studio Code
 - Git + GitHub
 
-## Major Functions
+### Major Functions
 
 - Content Display:
     - Projects: This section showcases a list of projects worked on. It includes descriptions, screenshots, and links to live demos.
@@ -60,6 +62,14 @@ I learned more about making clean and simple designs that feel more user friendl
 I learned how to properly make a Dark Mode feature and how to style this. I had learned to integrate the JS for this but I did not learn the styling process and in the process I looked into making it WCAG compliant.
 
 Most importantly, I practiced and saw growth in my problem solving abilities. Incorporating new features and styles I had never worked on before allowed me to practice problem solving using more efficient Chat GPT prompts and Google searches.
+
+## Build/Deploy Instructions
+
+There are no external dependencies or software installations required to run this website. 
+
+### Accessing the Portfolio
+
+Access this URL in your web browser to view your online portfolio: (https://itsyagirlalexcote.github.io/professional-portfolio/) 
 
 ## Author
 
