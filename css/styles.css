@@ -182,7 +182,8 @@
 
   .dark .project-item-wrapper {
     border-bottom: 1px solid #2b2b2b;
-    background-color: rgb(116, 116, 116); 
+    background-color: rgb(0, 0, 0); 
+    box-shadow: none;
   }
 
   .dark .extra-skills .text-wrapper {
