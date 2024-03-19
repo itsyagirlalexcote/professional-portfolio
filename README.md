@@ -54,10 +54,15 @@ In essence, the portfolio's functionalities focus on presenting work experience,
 ### What I learned
 
   - Key Learnings & Skill Development:
+
     - Design Process Optimization: This iteration emphasized the importance of a design comp. Creating a Figma comp upfront significantly improved my workflow and organization compared to my previous portfolio. It also provided a valuable opportunity to learn basic Figma prototyping.
-    - Advanced Animation Techniques: I actively challenged myself by incorporating new and more complex animations into the portfolio. This process honed my understanding of animation principles and their implementation.
+
+    - Animation Techniques: I actively challenged myself by incorporating new and more complex animations into the portfolio. This process honed my understanding of animation principles and their implementation.
+
     - User-Centered Design: A significant focus was placed on crafting clean and user-friendly interfaces. This project instilled a stronger appreciation for the importance of user experience (UX) in development. Prior projects, while functionally sound, lacked attention to aesthetics and user interaction.
+
     - Dark Mode Implementation: I expanded my skillset by implementing a dark mode feature, including the styling aspects I hadn't previously addressed. This process involved researching WCAG compliance to ensure accessibility.
+    
     - Problem-Solving & Resourcefulness: Integrating new features and styles fostered significant growth in my problem-solving abilities. I honed my research skills by utilizing resources like Chat GPT prompts and targeted Google searches to find efficient solutions.
 
 ## Build/Deploy Instructions
