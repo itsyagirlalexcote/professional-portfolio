@@ -13,17 +13,17 @@
 
 ## Introduction
 
-Professional Portfolio website showcasing Projects, Skills, and an About section.
+Professional Portfolio website showcasing Projects, Skills and an About section.
 
 ## My process
 
-This is a second portfolio after originally creating an MVP previously. I wanted to make a portfolio that was in line with current design standards and with a cleaner aesthetic. I researched several current developer portfolios to determine which features I wanted to incorporate in my new portfolio and learn how to code these new features at the same time. 
+This portfolio represents an iterative development process, building upon a previously created MVP. My goal was to align the design with current trends and achieve a cleaner aesthetic. Through research on contemporary developer portfolios, I identified features to integrate while simultaneously learning how to code them.
 
-I began by sketching what I wanted my page to look like on paper along with some notes on its basic functions. I moved the sketches to Figma to make a design comp and I wanted to begin learning some basics of prototyping using Figma. I turned to one of my mentors to get some advice and insight on my process as well as some pointers on my use of Figma.
+The development process began with paper sketches outlining the desired layout and core functionalities. I then transitioned these sketches to Figma, creating a design comp and utilizing the opportunity to learn basic prototyping within the tool. Throughout this phase, I sought guidance from a mentor regarding my approach and Figma usage.
 
-Once the Design Comp was made, I created a new repo using Git and Github. I organized the new file and began coding the structure of my site in the index.html file in VS Code. I continued by styling the site and adding a few basic JavaScript features and animations simply to bring my portfolio to life while showcasing the basics of my skillset. Some freestyle coding was used as I went along and I added new features as I would get new ideas. Since part of the goal was to learn, I was open to any adjustments or improvements that inspired me along the way.
+Upon finalizing the design comp, I set up a new Git repository on GitHub and began structuring the site's HTML in VS Code. Styling followed, along with the implementation of basic JavaScript features and animations to enhance user experience and showcase my skillset. I embraced an "exploratory coding" approach, adapting and adding new functionalities as inspiration struck. This project heavily emphasized learning; I remained open to any adjustments or improvements that emerged throughout development.
 
-Finally, I tested all parts of the portfolio and sent it to my mentor and other peers for a final review and to obtain final comments and feedback before publishing the final product. This process might have taken the longest since I designed all the parts of this project myself and I am not a designer, so I wanted to make sure each part I styled made sense and looked appropriate. 
+The final stage involved thorough testing of all portfolio functionalities. I then shared it with my mentor and peers for final review and feedback before deployment. This iterative review process proved time-consuming due to my self-directed design approach, ensuring all stylistic elements aligned with user expectations and professional standards.
 
 ### Built using
 
@@ -44,7 +44,7 @@ Finally, I tested all parts of the portfolio and sent it to my mentor and other 
     - Contact: This section offers ways for potential employers or clients to get in touch. It includes an email address and social media profiles.
   
 - Navigation:
-    - Hamburger Menu: This is a collapsible menu represented by three horizontal lines stacked vertically. It provides easy access to all the main sections of the portfolio by expanding to reveal a list of navigation links when clicked.
+    - Hamburger Menu: This is a collapsible menu  represented by three horizontal lines stacked vertically. It provides easy access to all the main sections of the portfolio by expanding to reveal a list of       navigation links when clicked.
   
 -  User Interface:
     - Dark Mode: This function allows users to switch between a light-colored theme and a dark-colored theme for the portfolio. A dark mode improves readability in low-light conditions and can be visually appealing to some users.
@@ -53,15 +53,12 @@ In essence, the portfolio's functionalities focus on presenting work experience,
 
 ### What I learned
 
-The last time I made a portfolio I did not make a proper design comp first and just this step greatly helped in organizing my work. I also learned the basics of Figma by taking the time to do this step. 
-
-I learned more about using animations and challenged myself to create animations that I had never used before. 
-
-I learned more about making clean and simple designs that feel more user-friendly. This boosted my confidence as a developer as some of my previous projects were properly coded but were not as aesthetically pleasing or centered on user-friendliness.
-
-I learned how to properly make a Dark Mode feature and how to style this. I had learned to integrate the JS for this but I did not learn the styling process and in the process, I looked into making it WCAG compliant.
-
-Most importantly, I practiced and saw growth in my problem-solving abilities. Incorporating new features and styles I had never worked on before allowed me to practice problem-solving using more efficient Chat GPT prompts and Google searches.
+  - Key Learnings & Skill Development:
+    - Design Process Optimization: This iteration emphasized the importance of a design comp. Creating a Figma comp upfront significantly improved my workflow and organization compared to my previous portfolio. It also provided a valuable opportunity to learn basic Figma prototyping.
+    - Advanced Animation Techniques: I actively challenged myself by incorporating new and more complex animations into the portfolio. This process honed my understanding of animation principles and their implementation.
+    - User-Centered Design: A significant focus was placed on crafting clean and user-friendly interfaces. This project instilled a stronger appreciation for the importance of user experience (UX) in development. Prior projects, while functionally sound, lacked attention to aesthetics and user interaction.
+    - Dark Mode Implementation: I expanded my skillset by implementing a dark mode feature, including the styling aspects I hadn't previously addressed. This process involved researching WCAG compliance to ensure accessibility.
+    - Problem-Solving & Resourcefulness: Integrating new features and styles fostered significant growth in my problem-solving abilities. I honed my research skills by utilizing resources like Chat GPT prompts and targeted Google searches to find efficient solutions.
 
 ## Build/Deploy Instructions
 
@@ -73,7 +70,7 @@ Access this URL in your web browser to view your online portfolio: https://itsya
 
 ## Author
 
-- Website - [Alexandra's portfolio](https://itsyagirlalexcote.github.io/professional-portfolio/)
+- Website - [Alexandra Cote-Lahue](https://itsyagirlalexcote.github.io/professional-portfolio/)
 - GitHub - [@itsyagirlalexcote](https://github.com/itsyagirlalexcote)
 - LinkedIn - [@alexandra-cote-lahue](https://www.linkedin.com/in/alexandra-cote-lahue/)
 
