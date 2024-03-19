@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Professional Portfolio website showcasing Projects, Skills and an About section.
+Professional Portfolio website showcasing Projects, Skills, and an About section.
 
 ## My process
 
@@ -23,7 +23,7 @@ I began by sketching what I wanted my page to look like on paper along with some
 
 Once the Design Comp was made, I created a new repo using Git and Github. I organized the new file and began coding the structure of my site in the index.html file in VS Code. I continued by styling the site and adding a few basic JavaScript features and animations simply to bring my portfolio to life while showcasing the basics of my skillset. Some freestyle coding was used as I went along and I added new features as I would get new ideas. Since part of the goal was to learn, I was open to any adjustments or improvements that inspired me along the way.
 
-Finally, I tested all parts of the portfolio and send it to my mentor and other peers for a final review and to obtain final comments and feedback before publishing the final product. This process might have taken the longest since I designed all the parts of this project myself and I am not a designer, so I wanted to make sure each part I styled made sense and looked appropriate. 
+Finally, I tested all parts of the portfolio and sent it to my mentor and other peers for a final review and to obtain final comments and feedback before publishing the final product. This process might have taken the longest since I designed all the parts of this project myself and I am not a designer, so I wanted to make sure each part I styled made sense and looked appropriate. 
 
 ### Built using
 
@@ -44,7 +44,7 @@ Finally, I tested all parts of the portfolio and send it to my mentor and other 
     - Contact: This section offers ways for potential employers or clients to get in touch. It includes an email address and social media profiles.
   
 - Navigation:
-    - Hamburger Menu: This is a collapsible menu  represented by three horizontal lines stacked vertically. It provides easy access to all the main sections of the portfolio by expanding to reveal a list of       navigation links when clicked.
+    - Hamburger Menu: This is a collapsible menu represented by three horizontal lines stacked vertically. It provides easy access to all the main sections of the portfolio by expanding to reveal a list of navigation links when clicked.
   
 -  User Interface:
     - Dark Mode: This function allows users to switch between a light-colored theme and a dark-colored theme for the portfolio. A dark mode improves readability in low-light conditions and can be visually appealing to some users.
@@ -57,11 +57,11 @@ The last time I made a portfolio I did not make a proper design comp first and j
 
 I learned more about using animations and challenged myself to create animations that I had never used before. 
 
-I learned more about making clean and simple designs that feel more user friendly. This boosted my confidence as a developer as some of my previous projects were properly coded but were not as aethetically pleasing or centered on user-friendliness.
+I learned more about making clean and simple designs that feel more user-friendly. This boosted my confidence as a developer as some of my previous projects were properly coded but were not as aesthetically pleasing or centered on user-friendliness.
 
-I learned how to properly make a Dark Mode feature and how to style this. I had learned to integrate the JS for this but I did not learn the styling process and in the process I looked into making it WCAG compliant.
+I learned how to properly make a Dark Mode feature and how to style this. I had learned to integrate the JS for this but I did not learn the styling process and in the process, I looked into making it WCAG compliant.
 
-Most importantly, I practiced and saw growth in my problem solving abilities. Incorporating new features and styles I had never worked on before allowed me to practice problem solving using more efficient Chat GPT prompts and Google searches.
+Most importantly, I practiced and saw growth in my problem-solving abilities. Incorporating new features and styles I had never worked on before allowed me to practice problem-solving using more efficient Chat GPT prompts and Google searches.
 
 ## Build/Deploy Instructions
 
@@ -73,7 +73,7 @@ Access this URL in your web browser to view your online portfolio: https://itsya
 
 ## Author
 
-- Website - [Alexandra Cote-Lahue](https://itsyagirlalexcote.github.io/professional-portfolio/)
+- Website - [Alexandra's portfolio](https://itsyagirlalexcote.github.io/professional-portfolio/)
 - GitHub - [@itsyagirlalexcote](https://github.com/itsyagirlalexcote)
 - LinkedIn - [@alexandra-cote-lahue](https://www.linkedin.com/in/alexandra-cote-lahue/)
 
