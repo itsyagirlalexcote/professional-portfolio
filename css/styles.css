@@ -824,7 +824,7 @@
       /* General - Sections styles */
 
       h2 {
-        font-size: 4vw;
+        font-size: 4rem;
       }
 
       /* Projects styles */
@@ -887,10 +887,15 @@
       h3.contact-tagline {
         width: 50%;
         padding-bottom: 5%;
+        font-size: 1.3rem;
       }
 
       footer .social-icons {
         padding: 2%;
+      }
+
+      footer .social-icons li i {
+        font-size: 2.25rem;
       }
 
       p.copyright {
@@ -993,6 +998,11 @@
         padding-bottom: 2%;
         max-width: 390px;
       }
+
+      footer .social-icons li i {
+        font-size: 3rem;
+      }
+
 
   }
 
